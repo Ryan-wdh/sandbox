@@ -3,62 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Planner</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<style>
-    body {background-color: #3a3833;         color: white;;font-family: Arial, Helvetica, sans-serif;}
-    h1 {text-align: center;}
-    .myDiv {
-        border: 5px outset #474343;
-        background-color: #181c1e;
-    }
-    th, td {
-        border:1px solid white;
-    }
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #1e1c1c;
-        text-align: center;
-    }
-    .headerDiv {
-        border: 5px outset #474343;
-        background-color: #181c1e;
-        backdrop-filter: blur(5px);
-        height: 52px;
-        margin-bottom: 10px;
-        position: sticky;
-        top: 0px;
-
-    }
-    .headerDiv a {
-        float: left;
-        color: white;
-        text-align: center;
-        padding: 15px 20px;
-        text-decoration: none;
-        font-size: 18px;
-        margin-left: 20px;
-    <!-- text-shadow: 0 0 3px white; -->
-    }
-    a:hover {
-        background-color: #2ea4f9;
-    }
-</style>
 <body>
+<div style="max-width: 100%; margin-left: auto; margin-right: auto;" class="titleDiv">
+    <h1>Planner</h1>
+</div>
 <div class= "headerDiv">
     <header>
         <a href="home.html">Home</a>
         <a style="background: #0360F1F9;" href="index.html">Planner</a>
     </header>
 </div>
-<div style="  max-width: 20%; margin-left: auto; margin-right: auto;" class="myDiv">
-    <h1>Planner</h1>
-</div>
-<div class="myDiv" style="height: 200px; width: 25%; margin-bottom: 50px; margin-top: 50px;">
-Rooster van bussen
-    <div class="myDiv" style="position: absolute; left: 75%;">
+<div class="myDiv" style="width: 300px; height:700px; margin-bottom: 50px; margin-top: 50px;">
+    <h2>Route</h2>
+    <img style="width: 300px; height:600px;" src="busss.png" alt="bus map">
+    <div class="myDiv" style="margin-top: 200px; position: absolute; left: 75%;">
     <table style="width:100%; font-size: 20px;">
         <tr>
             <th></th>
@@ -80,7 +40,7 @@ Rooster van bussen
     </div>
 </div>
 <footer>
-<p>Contactinformatie</p>
+<p>reizigers@9292.nl | #0900 9292</p>
 </footer>
 </body>
 </html>
